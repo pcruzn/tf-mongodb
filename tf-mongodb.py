@@ -91,3 +91,13 @@ documents = mycol.find(search_data)
 
 for document in documents:
     print(document)
+
+
+# agregado: como buscar cursos
+search_data = {
+    "cursos": "Backend Python"
+}
+
+documents = mycol.find(search_data)
+for document in documents:
+    print(document)
